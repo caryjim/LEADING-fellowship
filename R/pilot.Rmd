@@ -1,0 +1,137 @@
+---
+title: "Times Series - pilot on anomaly detection"
+author: "Cary"
+date: "9/23/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load the IR page-click data 
+```{r}
+montana <- read.csv('montana_state_university_RAMP_pc_daily_clicks.csv')
+head(montana)
+```
+
+# Review data type 
+```{r}
+str(montana)
+```
+
+# Convert date to standard date class in R format
+
+```{r}
+montana$date <- as.Date(montana$date)
+# as.Date(montana$date, "%m/%d/%Y") if the input file have a different format
+```
+# Drop repository_id
+```{r}
+montana <- subset(montana, select = -repository_id)
+```
+
+```{r}
+head(montana)
+```
+Date has to be sorted first. 
+
+```{r}
+library(lubridate)
+library(dplyr)
+```
+
+```{r}
+montana <- montana %>% arrange(montana$date)
+```
+
+```{r}
+str(montana)
+```
+
+# Method 1: use base R ts() function and plot.ts() 
+
+```{r}
+montana_series <- ts(montana) 
+```
+
+```{r}
+class(montana_series)
+```
+
+
+```{r}
+plot.ts(montana_series)
+```
+The ts() function is very limited in terms of handling daily values in our usage data. 
+
+# Method 2: using the logic in R Statistics Cookbook, Chapter 7 by Juretig, 2019, on anomaly detection
+```{r}
+library(tscount)
+library(dplyr)
+library(anomalize)
+library(tibbletime)
+```
+## Calculate days difference from the date column. 
+```{r}
+difference = montana %>% 
+  mutate(diff_days = as.numeric(date-lag(date))) #append a new column diff_days by subtracting the date difference
+```
+
+```{r}
+difference[is.na(difference)]  = 0  #Convert all na values in dataframe to zero 
+```
+
+```{r}
+head(difference)
+```
+
+## Anomaly Detection 
+### Transform the dataset into tibbletime object and assigned date as index 
+```{r}
+montana_anomalies = as_tbl_time(difference,index = date) 
+str(montana_anomalies)
+```
+
+```{r}
+head(montana_anomalies)
+```
+### Decompose the time series into trend, seasonality, and remainder components 
+We assumed the IR usage data is seasonal. Decomposition will estimate the trend component, seasonal component, and irregular component 
+
+```{r}
+montana_anomalies %>% 
+  time_decompose(clicks, merge = TRUE) #time_decompose from anomalize library 
+# It gives you an output of how many months in frequency and trend calculation
+# Four columns are displayed for time tibble: observed, season, trend, and remainder 
+```
+### Detect the anomalies using the remainder
+```{r}
+montana_anomalies %>% 
+  time_decompose(clicks, merge = TRUE)%>%
+  anomalize(remainder, method = "iqr")
+```
+
+### Putting the code sequence together and assigned to dataframe 
+
+```{r}
+results = 
+  montana_anomalies %>%
+  time_decompose(clicks, method = "stl", merge = TRUE) %>%
+  anomalize(remainder, method = "iqr")
+```
+```{r}
+head(results)
+```
+
+### Finally, join everything back together 
+
+```{r}
+montana_result <- results%>% time_recompose()
+```
+
+### Plot the result 
+```{r, fig.width = 10, fig.asp = 1}
+montana_result %>% plot_anomaly_decomposition(ncol=2,alpha_dots = 0.3) 
+```
+
