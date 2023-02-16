@@ -1,0 +1,1661 @@
+[
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "calgary_prism",
+    "_score": null,
+    "_source": {
+      "ir_root": "calgary_prism",
+      "ir_name": "University of Calgary PRISM",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-20",
+      "logging": true,
+      "country": "CA",
+      "description": "PRISM: University of Calgary\u2019s Digital Repository is used to manage, preserve and make available the academic works of faculty, students and research groups. The collection includes faculty publications, masters and doctoral theses, and research output from across Southern Alberta.",
+      "urls": [
+        "http://dspace.ucalgary.ca/",
+        "https://dspace.ucalgary.ca/",
+        "http://prism.ucalgary.ca/",
+        "https://prism.ucalgary.ca/",
+        "http://theses.ucalgary.ca/",
+        "https://theses.ucalgary.ca/"
+      ],
+      "page_click_index": "calgary_prism_page_clicks",
+      "access_info_index": "calgary_prism_access_info"
+    },
+    "sort": [
+      0
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "kansas_krex",
+    "_score": null,
+    "_source": {
+      "ir_root": "kansas_krex",
+      "ir_name": "Kansas State University Research Exchange (K-REx)",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-20",
+      "logging": true,
+      "country": "US",
+      "description": "Begun in 2004, DSpace, which we have branded K-State Research Exchange (K-REx), showcases a variety of content including digital scholarship created by K-State scholars and K-State libraries digital collections. K-REx is globally accessible by anyone with access to the Internet. Generally, only members of the KSU academic community may upload content.",
+      "urls": [
+        "https://krex.k-state.edu/",
+        "http://krex.k-state.edu/"
+      ],
+      "page_click_index": "kansas_krex_page_clicks",
+      "access_info_index": "kansas_krex_access_info"
+    },
+    "sort": [
+      1
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "winnipeg_winnspace",
+    "_score": null,
+    "_source": {
+      "ir_root": "winnipeg_winnspace",
+      "ir_name": "University of Winnipeg WinnSpace",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-20",
+      "logging": true,
+      "country": "CA",
+      "description": "WinnSpace is the open-access digital repository of the University of Winnipeg. It collects, preserves, and provides access to faculty and staff publications, graduate student theses, and the research papers of the Institute of Urban Studies.",
+      "urls": [
+        "http://winnspace.uwinnipeg.ca/"
+      ],
+      "page_click_index": "winnipeg_winnspace_page_clicks",
+      "access_info_index": "winnipeg_winnspace_access_info"
+    },
+    "sort": [
+      2
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "swarthmore_works",
+    "_score": null,
+    "_source": {
+      "ir_root": "swarthmore_works",
+      "ir_name": "Swarthmore College Works",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-07-20",
+      "logging": true,
+      "country": "US",
+      "description": "Works is a research information management system that aims to bring together all of Swarthmore College's faculty output and research under one umbrella, with an aim to preserve and provide access to that research.",
+      "urls": [
+        "https://works.swarthmore.edu/",
+        "http://works.swarthmore.edu/"
+      ],
+      "page_click_index": "swarthmore_works_page_clicks",
+      "access_info_index": "swarthmore_works_access_info"
+    },
+    "sort": [
+      3
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "swarthmore_tricollege",
+    "_score": null,
+    "_source": {
+      "ir_root": "swarthmore_tricollege",
+      "ir_name": "Swarthmore College: Institutional Scholarship",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-20",
+      "logging": true,
+      "country": "US",
+      "description": "The purpose of the TriCollege Libraries Institutional Repository is to collect, describe, provide access to, and preserve the digital materials associated with the research and scholarship of Bryn Mawr, Haverford, and Swarthmore Colleges, as well as materials of historical value to the Colleges.",
+      "urls": [
+        "https://scholarship.tricolib.brynmawr.edu/",
+        "http://scholarship.tricolib.brynmawr.edu/"
+      ],
+      "page_click_index": "swarthmore_tricollege_page_clicks",
+      "access_info_index": "swarthmore_tricollege_access_info"
+    },
+    "sort": [
+      4
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "epsilon_open",
+    "_score": null,
+    "_source": {
+      "ir_root": "epsilon_open",
+      "ir_name": "Swedish University of Agricultural Sciences Epsilon Open Archive",
+      "ir_platform": "eprints",
+      "url_string_filter": ".pdf",
+      "add_date": "2020-08-04",
+      "logging": true,
+      "country": "SE",
+      "description": "The Epsilon Open Archive is a full text electronic archive of Open Access publications from the Swedish University of Agricultural Sciences (SLU).",
+      "urls": [
+        "https://pub.epsilon.slu.se/",
+        "http://pub.epsilon.slu.se/"
+      ],
+      "page_click_index": "epsilon_open_page_clicks",
+      "access_info_index": "epsilon_open_access_info"
+    },
+    "sort": [
+      5
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "epsilon_student",
+    "_score": null,
+    "_source": {
+      "ir_root": "epsilon_student",
+      "ir_name": "Swedish University of Agricultural Sciences Epsilon Archive for Student Projects",
+      "ir_platform": "eprints",
+      "url_string_filter": ".pdf",
+      "add_date": "2020-08-04",
+      "logging": true,
+      "country": "SE",
+      "description": "The Epsilon Archive for Student Projects is a full text electronic archive of undergraduate theses and projects at the Swedish University of Agricultural Sciences (SLU).",
+      "urls": [
+        "https://stud.epsilon.slu.se/",
+        "http://stud.epsilon.slu.se/"
+      ],
+      "page_click_index": "epsilon_student_page_clicks",
+      "access_info_index": "epsilon_student_access_info"
+    },
+    "sort": [
+      6
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "massey_research",
+    "_score": null,
+    "_source": {
+      "ir_root": "massey_research",
+      "ir_name": "Massey University Massey Research Online",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-04",
+      "logging": true,
+      "country": "NZ",
+      "description": "Massey Research Online (MRO) is an open access digital archive of the research and scholarship of Massey University. MRO contains research theses and research outputs including published work by Massey University students and academic staff as well as peer-reviewed material not published elsewhere.",
+      "urls": [
+        "https://mro.massey.ac.nz/",
+        "http://mro.massey.ac.nz/"
+      ],
+      "page_click_index": "massey_research_page_clicks",
+      "access_info_index": "massey_research_access_info"
+    },
+    "sort": [
+      7
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "brock_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "brock_digital",
+      "ir_name": "Brock University Digital Repository",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-04",
+      "logging": true,
+      "country": "CA",
+      "description": "Brock University\u2019s Digital Repository is an online archive showcasing and preserving the Brock community\u2019s scholarly output as well as items from the Library\u2019s Special Collections and Archives. Researchers can disseminate their work by depositing it in this Open Access repository, which provides free, immediate access to users while also allowing Brock scholars to track downloads and views of their scholarship.",
+      "urls": [
+        "https://dr.library.brocku.ca/",
+        "http://dr.library.brocku.ca/"
+      ],
+      "page_click_index": "brock_digital_page_clicks",
+      "access_info_index": "brock_digital_access_info"
+    },
+    "sort": [
+      8
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "boston_openbu",
+    "_score": null,
+    "_source": {
+      "ir_root": "boston_openbu",
+      "ir_name": "Boston University OpenBU",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-04",
+      "logging": true,
+      "country": "US",
+      "description": "Boston University\u2019s institutional repository, OpenBU, provides access and preservation to the University\u2019s intellectual and creative output, which includes: publications, documents, images, videos, and more. OpenBU is an open access repository, which means that the majority of the works deposited here are freely accessible and discoverable to the world via the web.",
+      "urls": [
+        "https://open.bu.edu/",
+        "http://open.bu.edu"
+      ],
+      "page_click_index": "boston_openbu_page_clicks",
+      "access_info_index": "boston_openbu_access_info"
+    },
+    "sort": [
+      9
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "u_laval_corpusul",
+    "_score": null,
+    "_source": {
+      "ir_root": "u_laval_corpusul",
+      "ir_name": "Universit\u00e9 Laval CorpusUL",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-06",
+      "logging": true,
+      "country": "CA",
+      "description": "CorpusUL, Universit\u00e9 Laval's Institutional repository preserves and enables easy and open access to scientific literature.",
+      "urls": [
+        "https://corpus.ulaval.ca/jspui/",
+        "http://corpus.ulaval.ca/jspui/"
+      ],
+      "page_click_index": "u_laval_corpusul_page_clicks",
+      "access_info_index": "u_laval_corpusul_access_info"
+    },
+    "sort": [
+      10
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "caltech_author",
+    "_score": null,
+    "_source": {
+      "ir_root": "caltech_author",
+      "ir_name": "CaltechAUTHORS",
+      "ir_platform": "eprints",
+      "url_string_filter": ".pdf",
+      "add_date": "2020-08-06",
+      "logging": true,
+      "country": "US",
+      "description": "A repository of over 70,000 research papers authored by Caltech faculty and other researchers at Caltech. It is updated continuously as departments and library staff add available and recently published documents.",
+      "urls": [
+        "https://authors.library.caltech.edu/",
+        "http://authors.library.caltech.edu/"
+      ],
+      "page_click_index": "caltech_author_page_clicks",
+      "access_info_index": "caltech_author_access_info"
+    },
+    "sort": [
+      11
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "caltech_theses",
+    "_score": null,
+    "_source": {
+      "ir_root": "caltech_theses",
+      "ir_name": "CaltechTHESIS",
+      "ir_platform": "eprints",
+      "url_string_filter": ".pdf",
+      "add_date": "2020-08-06",
+      "logging": true,
+      "country": "US",
+      "description": "A growing repository of Ph.D., Engineer, Master's and Bachelor's/Senior theses authored by Caltech students. It is updated continuously as students add new theses, and as library staff scan and add older theses.",
+      "urls": [
+        "https://thesis.library.caltech.edu/",
+        "http://thesis.library.caltech.edu/"
+      ],
+      "page_click_index": "caltech_theses_page_clicks",
+      "access_info_index": "caltech_theses_access_info"
+    },
+    "sort": [
+      12
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "ut_austin_scholarworks",
+    "_score": null,
+    "_source": {
+      "ir_root": "ut_austin_scholarworks",
+      "ir_name": "University of Texas Scholarworks",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-06",
+      "logging": true,
+      "country": "US",
+      "description": "Texas ScholarWorks was established to provide open, online access to the products of the University's research and scholarship, to preserve these works for future generations, to promote new models of scholarly communication, and to help deepen community understanding of the value of higher education.",
+      "urls": [
+        "https://repositories.lib.utexas.edu/",
+        "http://repositories.lib.utexas.edu/"
+      ],
+      "page_click_index": "ut_austin_scholarworks_page_clicks",
+      "access_info_index": "ut_austin_scholarworks_access_info"
+    },
+    "sort": [
+      13
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "mcmaster_macsphere",
+    "_score": null,
+    "_source": {
+      "ir_root": "mcmaster_macsphere",
+      "ir_name": "McMaster University MacSphere",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-15",
+      "logging": true,
+      "country": "CA",
+      "description": "MacSphere is McMaster University\u2019s Institutional Repository (IR). MacSphere aims to bring together all of a University's research under one umbrella, in order to preserve and provide access to that research. The research and scholarly output included in MacSphere has been selected and deposited by the individual university departments and centres on campus.",
+      "urls": [
+        "https://macsphere.mcmaster.ca/"
+      ],
+      "page_click_index": "mcmaster_macsphere_page_clicks",
+      "access_info_index": "mcmaster_macsphere_access_info"
+    },
+    "sort": [
+      14
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "maryland_mdsoar",
+    "_score": null,
+    "_source": {
+      "ir_root": "maryland_mdsoar",
+      "ir_name": "Maryland MD-SOAR",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-15",
+      "logging": true,
+      "country": "US",
+      "description": "MD-SOAR is a shared digital repository platform for eleven colleges and universities in Maryland. It is jointly governed by all participating libraries, who have agreed to share policies and practices that are necessary and appropriate for the shared platform.",
+      "urls": [
+        "https://mdsoar.org/",
+        "http://mdsoar.org/"
+      ],
+      "page_click_index": "maryland_mdsoar_page_clicks",
+      "access_info_index": "maryland_mdsoar_access_info"
+    },
+    "sort": [
+      15
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "maryland_mddrum",
+    "_score": null,
+    "_source": {
+      "ir_root": "maryland_mddrum",
+      "ir_name": "University of Maryland DRUM",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-15",
+      "logging": true,
+      "country": "US",
+      "description": "The Digital Repository at the University of Maryland (DRUM) collects, preserves, and provides public access to the scholarly output of the university. Faculty and researchers can upload research products for rapid dissemination, global visibility and impact, and long-term preservation.",
+      "urls": [
+        "https://drum.lib.umd.edu/",
+        "http://drum.lib.umd.edu/"
+      ],
+      "page_click_index": "maryland_mddrum_page_clicks",
+      "access_info_index": "maryland_mddrum_access_info"
+    },
+    "sort": [
+      16
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "tamu_oaktrust",
+    "_score": null,
+    "_source": {
+      "ir_root": "tamu_oaktrust",
+      "ir_name": "OAKTrust digital repository at Texas A&M",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-15",
+      "logging": true,
+      "country": "US",
+      "description": "The OAKTrust digital repository at Texas A&M is a digital service that collects, preserves, and distributes the scholarly output of the University. The repository facilitates open access scholarly communication while preserving the scholarly legacy of the Texas A&M community.",
+      "urls": [
+        "https://oaktrust.library.tamu.edu",
+        "http://oaktrust.library.tamu.edu"
+      ],
+      "page_click_index": "tamu_oaktrust_page_clicks",
+      "access_info_index": "tamu_oaktrust_access_info"
+    },
+    "sort": [
+      17
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "co_wy_mtnscholar",
+    "_score": null,
+    "_source": {
+      "ir_root": "co_wy_mtnscholar",
+      "ir_name": "Colorado and Wyoming Mountain Scholar",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-15",
+      "logging": true,
+      "country": "US",
+      "description": "Mountain Scholar is a repository service that collects, preserves, and provides access to born digital and digitized library collections and other scholarly and creative works from several academic entities within the states of Colorado and Wyoming.",
+      "urls": [
+        "https://mountainscholar.org/",
+        "https://dspace.library.colostate.edu/"
+      ],
+      "page_click_index": "co_wy_mtnscholar_page_clicks",
+      "access_info_index": "co_wy_mtnscholar_access_info"
+    },
+    "sort": [
+      18
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "u_waterloo_uwspace",
+    "_score": null,
+    "_source": {
+      "ir_root": "u_waterloo_uwspace",
+      "ir_name": "University of Waterloo UWSpace",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-06",
+      "logging": true,
+      "country": "CA",
+      "description": "UWSpace is the University of Waterloo's institutional repository for the research and scholarship produced by its faculty, students, and staff. A service of the Library, UWSpace provides researchers with a free, secure, and long-term home for the presentation, dissemination, and preservation of their research and scholarship.",
+      "urls": [
+        "https://uwspace.uwaterloo.ca",
+        "http://uwspace.uwaterloo.ca"
+      ],
+      "page_click_index": "u_waterloo_uwspace_page_clicks",
+      "access_info_index": "u_waterloo_uwspace_access_info"
+    },
+    "sort": [
+      19
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "u_miami_scholarship",
+    "_score": null,
+    "_source": {
+      "ir_root": "u_miami_scholarship",
+      "ir_name": "University of Miami Scholarship@Miami",
+      "ir_platform": "esploro",
+      "url_string_filter": "/view/delivery/",
+      "add_date": "2020-07-13",
+      "logging": true,
+      "country": "US",
+      "description": "Scholarship@Miami is the institutional research repository and discovery portal for the University of Miami. Scholarship@Miami features researcher profiles and selected research and scholarly works prepared by faculty, students, and staff of the university.",
+      "urls": [
+        "https://scholarship.miami.edu/"
+      ],
+      "page_click_index": "u_miami_scholarship_page_clicks",
+      "access_info_index": "u_miami_scholarship_access_info"
+    },
+    "sort": [
+      20
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "michigan_deepblue",
+    "_score": null,
+    "_source": {
+      "ir_root": "michigan_deepblue",
+      "ir_name": "University of Michigan Deep Blue",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-16",
+      "logging": true,
+      "country": "US",
+      "description": "Deep Blue is the University of Michigan's institutional repository service. It preserves and provides access to the research and creative work done by our faculty, staff, and students.",
+      "urls": [
+        "https://deepblue.lib.umich.edu",
+        "http://deepblue.lib.umich.edu"
+      ],
+      "page_click_index": "michigan_deepblue_page_clicks",
+      "access_info_index": "michigan_deepblue_access_info"
+    },
+    "sort": [
+      21
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "msu_scholarworks",
+    "_score": null,
+    "_source": {
+      "ir_root": "msu_scholarworks",
+      "ir_name": "Montana State University Scholarworks",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-13",
+      "logging": true,
+      "country": "US",
+      "description": "ScholarWorks is an open access institutional repository for the capture of the intellectual work of Montana State University.",
+      "urls": [
+        "http://scholarworks.montana.edu/",
+        "https://scholarworks.montana.edu/"
+      ],
+      "page_click_index": "msu_scholarworks_page_clicks",
+      "access_info_index": "msu_scholarworks_access_info"
+    },
+    "sort": [
+      22
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "unlincoln_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "unlincoln_digital",
+      "ir_name": "Digital Commons @ The University of Nebraska Lincoln",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "US",
+      "description": "digitalcommons@unl.edu is the institutional repository for the University of Nebraska-Lincoln. The IR was founded in 2005, holds extensive materials in agriculture, mechanical engineering, virology, parasitology, ornithology, food science, physics, American studies, social science and business. It hosts original journals, including Library Philosophy & Practice, and publishes the Zea Books monograph imprint.",
+      "urls": [
+        "https://digitalcommons.unl.edu/",
+        "http://digitalcommons.unl.edu/"
+      ],
+      "page_click_index": "unlincoln_digital_page_clicks",
+      "access_info_index": "unlincoln_digital_access_info"
+    },
+    "sort": [
+      23
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "wollongong_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "wollongong_digital",
+      "ir_name": "University of Wollongong Australia: Research Online",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "AU",
+      "description": "Research Online is an open-access digital archive promoting the scholarly output of the University of Wollongong, Australia. The repository also includes digitized cultural heritage collections and the UOW corporate publication archive.",
+      "urls": [
+        "https://ro.uow.edu.au/",
+        "http://ro.uow.edu.au/"
+      ],
+      "page_click_index": "wollongong_digital_page_clicks",
+      "access_info_index": "wollongong_digital_access_info"
+    },
+    "sort": [
+      24
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "iowa_st_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "iowa_st_digital",
+      "ir_name": "Iowa State University Digital Repository",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "US",
+      "description": "Iowa State University Digital Repository provides free and open access to scholarly and creative works, research, publications and reports by Iowa State's faculty, students, staff and administrative units. The repository is administered by the University Library, with support from the Office of the Vice President of Research.",
+      "urls": [
+        "https://lib.dr.iastate.edu/"
+      ],
+      "page_click_index": "iowa_st_digital_page_clicks",
+      "access_info_index": "iowa_st_digital_access_info"
+    },
+    "sort": [
+      25
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "vcu_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "vcu_digital",
+      "ir_name": "Virginia Commonwealth University Scholars Compass",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "US",
+      "description": "Scholars Compass is the institutional repository for the intellectual output of VCU\u2019s academic, research, and administrative communities. Scholars Compass hosts content that is produced, submitted, or sponsored by VCU faculty, researchers, or staff, and demonstrates scholarly, educational, or research value.",
+      "urls": [
+        "https://scholarscompass.vcu.edu/"
+      ],
+      "page_click_index": "vcu_digital_page_clicks",
+      "access_info_index": "vcu_digital_access_info"
+    },
+    "sort": [
+      26
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "u_arizona_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "u_arizona_repo",
+      "ir_name": "University of Arizona Campus Repository",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "US",
+      "description": "The UA Campus Repository is a service of the University of Arizona Libraries. The repository shares, archives and preserves unique digital materials from faculty, staff, students and affiliated contributors.",
+      "urls": [
+        "https://repository.arizona.edu/"
+      ],
+      "page_click_index": "u_arizona_repo_page_clicks",
+      "access_info_index": "u_arizona_repo_access_info"
+    },
+    "sort": [
+      27
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "un_reno_scholarworks",
+    "_score": null,
+    "_source": {
+      "ir_root": "un_reno_scholarworks",
+      "ir_name": "University of Nevada, Reno Scholarworks",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "US",
+      "description": "ScholarWorks is University of Nevada, Reno\u2019s digital repository that collects, preserves, and distributes the university\u2019s intellectual output. Repositories are important tools for preserving an organization's legacy; they facilitate digital preservation and scholarly communication.",
+      "urls": [
+        "https://scholarworks.unr.edu/"
+      ],
+      "page_click_index": "un_reno_scholarworks_page_clicks",
+      "access_info_index": "un_reno_scholarworks_access_info"
+    },
+    "sort": [
+      28
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "rsvpu_ir",
+    "_score": null,
+    "_source": {
+      "ir_root": "rsvpu_ir",
+      "ir_name": "Institutional Repository of Russian State Vocational Pedagogical University",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "RU",
+      "description": "",
+      "urls": [
+        "http://elar.rsvpu.ru/"
+      ],
+      "page_click_index": "rsvpu_ir_page_clicks",
+      "access_info_index": "rsvpu_ir_access_info"
+    },
+    "sort": [
+      29
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "cornell_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "cornell_repo",
+      "ir_name": "eCommons, Cornell's digital repository",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "US",
+      "description": "eCommons is a service of Cornell University Library that provides long-term access to a broad range of Cornell-related digital content of enduring value.",
+      "urls": [
+        "https://ecommons.cornell.edu/"
+      ],
+      "page_click_index": "cornell_repo_page_clicks",
+      "access_info_index": "cornell_repo_access_info"
+    },
+    "sort": [
+      30
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "umn_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "umn_digital",
+      "ir_name": "University of Minnesota Digital Conservancy",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "US",
+      "description": "The University of Minnesota Digital Conservancy is an online service for collecting, preserving, and making information accessible to students, faculty, researchers, and community members. The University Digital Conservancy provides free, public access, and long-term preservation of works created at the University.",
+      "urls": [
+        "https://conservancy.umn.edu/",
+        "http://conservancy.umn.edu/"
+      ],
+      "page_click_index": "umn_digital_page_clicks",
+      "access_info_index": "umn_digital_access_info"
+    },
+    "sort": [
+      31
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "u_houston_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "u_houston_repo",
+      "ir_name": "University of Houston Institutional Repository",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "US",
+      "description": "The University of Houston Institutional Repository (UHIR) collects, preserves and distributes scholarly output and creative works produced by the University of Houston community. UHIR provides free and open online access to the university\u2019s research and scholarship, including electronic theses and dissertations.",
+      "urls": [
+        "https://uh-ir.tdl.org/",
+        "http://uh-ir.tdl.org/"
+      ],
+      "page_click_index": "u_houston_repo_page_clicks",
+      "access_info_index": "u_houston_repo_access_info"
+    },
+    "sort": [
+      32
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "seafdec_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "seafdec_repo",
+      "ir_name": "DSpace @ Southeast Asian Fisheries Development Center",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "PH",
+      "description": "Southeast Asian Fisheries Development Center, Aquaculture Department Institutional Repository (SAIR) is the official digital repository of scholarly and research information of the department.",
+      "urls": [
+        "https://repository.seafdec.org.ph/"
+      ],
+      "page_click_index": "seafdec_repo_page_clicks",
+      "access_info_index": "seafdec_repo_access_info"
+    },
+    "sort": [
+      33
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "pittsburgh_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "pittsburgh_digital",
+      "ir_name": "University of Pittsbugh D-Scholarship@Pitt",
+      "ir_platform": "eprints",
+      "url_string_filter": ".pdf",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "US",
+      "description": "D-Scholarship@Pitt is an Open Access institutional repository for the research output of the University of Pittsburgh, including research papers, conference papers and presentations, supporting multimedia files, (audio, video, images, etc.) research data, and Electronic Theses and Dissertations (ETDs).",
+      "urls": [
+        "http://d-scholarship.pitt.edu",
+        "https://d-scholarship.pitt.edu"
+      ],
+      "page_click_index": "pittsburgh_digital_page_clicks",
+      "access_info_index": "pittsburgh_digital_access_info"
+    },
+    "sort": [
+      34
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "western_cape_etd",
+    "_score": null,
+    "_source": {
+      "ir_root": "western_cape_etd",
+      "ir_name": "University of the Western Cape Electronic Theses and Dissertations Repository",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "ZA",
+      "description": "The University of the Western Cape electronic theses and dissertations repository holds full-text theses submitted for degree purposes since 2004, with selected titles prior to 2004. Access to the complete theses (print) collection is available via the online catalogue.",
+      "urls": [
+        "http://etd.uwc.ac.za/",
+        "https://etd.uwc.ac.za/"
+      ],
+      "page_click_index": "western_cape_etd_page_clicks",
+      "access_info_index": "western_cape_etd_access_info"
+    },
+    "sort": [
+      35
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "western_cape_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "western_cape_repo",
+      "ir_name": "University of the Western Cape Repository",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "ZA",
+      "description": "The repository is a service that stores, distributes and displays digital copies of research outputs of the University of the Western Cape faculties.",
+      "urls": [
+        "http://repository.uwc.ac.za/",
+        "https://repository.uwc.ac.za/"
+      ],
+      "page_click_index": "western_cape_repo_page_clicks",
+      "access_info_index": "western_cape_repo_access_info"
+    },
+    "sort": [
+      36
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "viurr_repository",
+    "_score": null,
+    "_source": {
+      "ir_root": "viurr_repository",
+      "ir_name": "Royal Roads University and Vancouver Island University VIURRSpace",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "CA",
+      "description": "The Libraries of Royal Roads University and Vancouver Island University collaboratively offer VIURRSpace to digitally preserve and showcase selected scholarly and creative works of the universities, together with special collections that represent the unique character of the region.",
+      "urls": [
+        "https://viurrspace.ca/",
+        "http://viurrspace.ca/"
+      ],
+      "page_click_index": "viurr_repository_page_clicks",
+      "access_info_index": "viurr_repository_access_info"
+    },
+    "sort": [
+      37
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "strathclyde_strathprints",
+    "_score": null,
+    "_source": {
+      "ir_root": "strathclyde_strathprints",
+      "ir_name": "University of Strathclyde Strathprints",
+      "ir_platform": "eprints",
+      "url_string_filter": ".pdf",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "UK",
+      "description": "The Strathprints institutional repository is a digital open archive of University of Strathclyde research outputs. It has been developed to disseminate Open Access research outputs, expose data about those outputs, further the goals of open science, and enable the management and persistent access to Strathclyde's intellectual output.",
+      "urls": [
+        "https://strathprints.strath.ac.uk/"
+      ],
+      "page_click_index": "strathclyde_strathprints_page_clicks",
+      "access_info_index": "strathclyde_strathprints_access_info"
+    },
+    "sort": [
+      38
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "u_montana_scholarworks",
+    "_score": null,
+    "_source": {
+      "ir_root": "u_montana_scholarworks",
+      "ir_name": "University of Montana ScholarWorks",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "US",
+      "description": "ScholarWorks, a service of the University of Montana Mansfield Library, centralizes, preserves, and provides access to the research, creative scholarship, and unique resources produced and curated by University of Montana faculty, students, and staff. ScholarWorks makes these resources easier to find, share, and use.",
+      "urls": [
+        "https://scholarworks.umt.edu"
+      ],
+      "page_click_index": "u_montana_scholarworks_page_clicks",
+      "access_info_index": "u_montana_scholarworks_access_info"
+    },
+    "sort": [
+      39
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "v_tech_works",
+    "_score": null,
+    "_source": {
+      "ir_root": "v_tech_works",
+      "ir_name": "Virginia Tech VTechWorks",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "US",
+      "description": "VTechWorks, Virginia Tech's open access institutional repository, provides access to and preservation of the scholarly work of Virginia Tech faculty, students, and staff: journal articles, books, theses, dissertations, conference papers, slide presentations, technical reports, working papers, administrative documents, videos, images, datasets, and more.",
+      "urls": [
+        "https://vtechworks.lib.vt.edu/",
+        "http://vtechworks.lib.vt.edu/"
+      ],
+      "page_click_index": "v_tech_works_page_clicks",
+      "access_info_index": "v_tech_works_access_info"
+    },
+    "sort": [
+      40
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "shsu_works",
+    "_score": null,
+    "_source": {
+      "ir_root": "shsu_works",
+      "ir_name": "Sam Houston State University Scholarly Works @ SHSU",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "US",
+      "description": "Scholarly Works @ SHSU is a digital service that collects, preserves, and distributes digital material. Repositories are important tools for preserving an organization's legacy; they facilitate digital preservation and scholarly communication.",
+      "urls": [
+        "https://shsu-ir.tdl.org/",
+        "http://shsu-ir.tdl.org/"
+      ],
+      "page_click_index": "shsu_works_page_clicks",
+      "access_info_index": "shsu_works_access_info"
+    },
+    "sort": [
+      41
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "iupui_scholarworks",
+    "_score": null,
+    "_source": {
+      "ir_root": "iupui_scholarworks",
+      "ir_name": "Indiana University - Purdue University Indianapolis (IUPUI) ScholarWorks",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "US",
+      "description": "IUPUI ScholarWorks provides open access to scholarly materials produced or archived by members of the Indiana University - Purdue University Indianapolis (IUPUI) community.",
+      "urls": [
+        "https://scholarworks.iupui.edu/",
+        "http://scholarworks.iupui.edu/"
+      ],
+      "page_click_index": "iupui_scholarworks_page_clicks",
+      "access_info_index": "iupui_scholarworks_access_info"
+    },
+    "sort": [
+      42
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "plymouth_pearl",
+    "_score": null,
+    "_source": {
+      "ir_root": "plymouth_pearl",
+      "ir_name": "University of Plymouth PEARL",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-08-12",
+      "logging": true,
+      "country": "UK",
+      "description": "PEARL is the open access research repository for the University of Plymouth. It safe-guards, preserves and provides access to a growing body of full text materials generated through the research activities of the University.",
+      "urls": [
+        "https://pearl.plymouth.ac.uk/",
+        "http://pearl.plymouth.ac.uk/"
+      ],
+      "page_click_index": "plymouth_pearl_page_clicks",
+      "access_info_index": "plymouth_pearl_access_info"
+    },
+    "sort": [
+      43
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "cdl_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "cdl_repo",
+      "ir_name": "California Digital Library eScholarship",
+      "ir_platform": "other",
+      "url_string_filter": "/content/",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "US",
+      "description": "eScholarship\u00ae provides scholarly publishing and repository services that enable departments, research units, publishing programs, and individual scholars associated with the University of California to have direct control over the creation and dissemination of the full range of their scholarship.",
+      "urls": [
+        "https://escholarship.org",
+        "https://www.escholarship.org"
+      ],
+      "page_click_index": "cdl_repo_page_clicks",
+      "access_info_index": "cdl_repo_access_info"
+    },
+    "sort": [
+      44
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "cuhk_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "cuhk_digital",
+      "ir_name": "The Chinese University of Hong Kong (CUHK) Digital Repository",
+      "ir_platform": "islandora",
+      "url_string_filter": "item/cuhk",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "HK",
+      "description": "The Chinese University of Hong Kong (CUHK) Digital Repository is a one-stop repository for accessing all the publicly available digital content created and maintained by the CUHK Library. The Library has started creating its digital collections since 1995 with the purposes to preserve significant academic and intellectual work from the Library\u2019s special collections and donation, some of which are not available elsewhere in Hong Kong.",
+      "urls": [
+        "http://repository.lib.cuhk.edu.hk/"
+      ],
+      "page_click_index": "cuhk_digital_page_clicks",
+      "access_info_index": "cuhk_digital_access_info"
+    },
+    "sort": [
+      45
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "cuhk_scholarship",
+    "_score": null,
+    "_source": {
+      "ir_root": "cuhk_scholarship",
+      "ir_name": "The Chinese University of Hong Kong (CUHK) Library Digital Scholarship Projects Site",
+      "ir_platform": "other",
+      "url_string_filter": "filer",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "HK",
+      "description": "The CUHK Library Digital Scholarship Projects Website is designed to deliver projects collaborated with CUHK Faculty members and researchers in supporting their digital scholarship research, opening up the research data and demonstrating the application of digital tools in research.",
+      "urls": [
+        "http://dsprojects.lib.cuhk.edu.hk/"
+      ],
+      "page_click_index": "cuhk_scholarship_page_clicks",
+      "access_info_index": "cuhk_scholarship_access_info"
+    },
+    "sort": [
+      46
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "designsafe_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "designsafe_repo",
+      "ir_name": "DesignSafe-CI",
+      "ir_platform": "other",
+      "url_string_filter": "/media/",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "US",
+      "description": "Design Safe-CI (https://designsafe-ci.org) is the web-based research platform of the Natural Hazards Engineering Research Infrastructure (NHERI) Network that provides the computational tools needed to manage, store, publish, and analyze critical data for natural hazards research.",
+      "urls": [
+        "https://www.designsafe-ci.org/"
+      ],
+      "page_click_index": "designsafe_repo_page_clicks",
+      "access_info_index": "designsafe_repo_access_info"
+    },
+    "sort": [
+      47
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "asu_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "asu_digital",
+      "ir_name": "Arizona State Univerity Digital Repository",
+      "ir_platform": "other",
+      "url_string_filter": "/attachments/",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "US",
+      "description": "The ASU Digital Repository is home to scholarly, administrative and cultural heritage materials that support, engage and inspire the Arizona State University community. Scholarly papers, theses and audiovisual materials join university records, historical photographs and music performances in a broad and inclusive collection.",
+      "urls": [
+        "https://repository.asu.edu/"
+      ],
+      "page_click_index": "asu_digital_page_clicks",
+      "access_info_index": "asu_digital_access_info"
+    },
+    "sort": [
+      48
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "iit_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "iit_repo",
+      "ir_name": "Illinois Institute of Technology repository.iit",
+      "ir_platform": "islandora",
+      "url_string_filter": "/datastream/OBJ/",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "US",
+      "description": "repository.iit is the Illinois Institute of Technology\u2019s institutional repository and is maintained by staff at the Paul V. Galvin Library. We accept a wide range of digital materials from IIT faculty, staff and students. The repository contains materials including article pre-prints and post-prints, conference presentations, datasets, student theses, items from the University Archives and Special Collections, and more. We provide long-term preservation by providing persistent URLs that can be dependably used for linking to publications, research data, and other digital content. Our goal is to make the scholarly output of Illinois Tech accessible and discoverable.",
+      "urls": [
+        "https://repository.iit.edu/",
+        "http://repository.iit.edu/"
+      ],
+      "page_click_index": "iit_repo_page_clicks",
+      "access_info_index": "iit_repo_access_info"
+    },
+    "sort": [
+      49
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "atmire_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "atmire_repo",
+      "ir_name": "Atmire Open Repository Public Demo Repository",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "US",
+      "description": "Software as a Service repository operated by Atmire and based on the DSpace platform.",
+      "urls": [
+        "https://newdemo.openrepository.com/"
+      ],
+      "page_click_index": "atmire_repo_page_clicks",
+      "access_info_index": "atmire_repo_access_info"
+    },
+    "sort": [
+      50
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "prairie_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "prairie_digital",
+      "ir_name": "Kansas State University New Prairie Press",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-09-01",
+      "logging": false,
+      "country": "US",
+      "description": "New Prairie Press:  New Prairie Press at Kansas State University offers a home for scholarly publications edited or authored by scholars committed to the principles of open access publishing. While the Press focuses on journals, monographs, and conference proceedings in the humanities, social sciences, and the arts, publications from all disciplines are welcome.",
+      "urls": [
+        "http://newprairiepress.org/"
+      ],
+      "page_click_index": "prairie_digital_page_clicks",
+      "access_info_index": "prairie_digital_access_info"
+    },
+    "sort": [
+      51
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "oklahoma_shareok",
+    "_score": null,
+    "_source": {
+      "ir_root": "oklahoma_shareok",
+      "ir_name": "SHAREOK",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-29",
+      "logging": true,
+      "country": "US",
+      "description": "SHAREOK is the joint institutional repository for the University of Oklahoma Libraries (OU), Oklahoma State University Libraries (OSU), and the University of Central Oklahoma Max Chambers Library (UCO).",
+      "urls": [
+        "http://shareok.org",
+        "https://shareok.org",
+        "http://commons.shareok.org",
+        "https://commons.shareok.org"
+      ],
+      "page_click_index": "oklahoma_shareok_page_clicks",
+      "access_info_index": "oklahoma_shareok_access_info"
+    },
+    "sort": [
+      52
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "unlv_digitalscholarship",
+    "_score": null,
+    "_source": {
+      "ir_root": "unlv_digitalscholarship",
+      "ir_name": "University of Nevada, Las Vegas Digital Scholarshop@UNLV",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-07-29",
+      "logging": true,
+      "country": "US",
+      "description": "Digital Scholarship@UNLV is the institutional repository of the University of Nevada, Las Vegas and its mission is to showcase, preserve and make accessible the digital intellectual and creative output of UNLV scholars, departments, and research centers.  Research and scholarly archived output includes: articles, monographs, audio/visual presentations, working papers, technical reports, conference papers/posters, theses/dissertations, data sets, and publicly-funded research.",
+      "urls": [
+        "http://digitalscholarship.unlv.edu/",
+        "https://digitalscholarship.unlv.edu/"
+      ],
+      "page_click_index": "unlv_digitalscholarship_page_clicks",
+      "access_info_index": "unlv_digitalscholarship_access_info"
+    },
+    "sort": [
+      53
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "u_kentucky_uknowledge",
+    "_score": null,
+    "_source": {
+      "ir_root": "u_kentucky_uknowledge",
+      "ir_name": "University of Kentucky UKnowledge",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-07-29",
+      "logging": true,
+      "country": "US",
+      "description": "UKnowledge is a digital collection of unique scholarship created by the University of Kentucky (UK) community. It stores and provides open and stable worldwide access to UK's intellectual capital, and facilitates reuse of deposited materials.",
+      "urls": [
+        "http://uknowledge.uky.edu/",
+        "https://uknowledge.uky.edu/"
+      ],
+      "page_click_index": "u_kentucky_uknowledge_page_clicks",
+      "access_info_index": "u_kentucky_uknowledge_access_info"
+    },
+    "sort": [
+      54
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "smithsonian_research",
+    "_score": null,
+    "_source": {
+      "ir_root": "smithsonian_research",
+      "ir_name": "Smithsonian Research Online",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-29",
+      "logging": true,
+      "country": "US",
+      "description": "Smithsonian Research Online includes a repository of digital texts and other content representing published and unpublished research conducted at the Smithsonian.",
+      "urls": [
+        "https://repository.si.edu/"
+      ],
+      "page_click_index": "smithsonian_research_page_clicks",
+      "access_info_index": "smithsonian_research_access_info"
+    },
+    "sort": [
+      55
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "nku_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "nku_digital",
+      "ir_name": "Northern Kentucky University Digital Repositor",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2020-07-29",
+      "logging": true,
+      "country": "US",
+      "description": "NKU's Digital Repository is a centralized location in which the university seeks to collect and provide open access to permanent university records with high research value, including scholarship and creative works by the university community. This repository also provides access to items of heritage and history relating to the Northern Kentucky region as represented in the university\u2019s Special Collections.  Examples of content types include, but are not limited to institutional research reports, policies and minutes of NKU governing bodies, as well as faculty and student authored publications and research.",
+      "urls": [
+        "https://dspace.nku.edu/",
+        "http://dspace.nku.edu/"
+      ],
+      "page_click_index": "nku_digital_page_clicks",
+      "access_info_index": "nku_digital_access_info"
+    },
+    "sort": [
+      56
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "washburn_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "washburn_repo",
+      "ir_name": "Washburn University Institutional Repository",
+      "ir_platform": "contentdm",
+      "url_string_filter": "/getfile/",
+      "add_date": "2020-09-01",
+      "logging": false,
+      "country": "US",
+      "description": "The Washburn University Institutional Repository (WUIR) is a digital repository for scholarly work created by faculty, staff and students at Washburn University as well as digitized materials from the University Libraries Department of Special Collections and Archives. The University Libraries manage the Collections in order to offer a central location for the deposit, maintenance and long-term preservation of the research and other scholarly production of our Community as well as items of value that highlight the history, nature and culture of the University. One of our key missions is to ensure that these scholarly and creative endeavors are accessible to the widest possible audience.",
+      "urls": [
+        "http://cdm16918.contentdm.oclc.org/",
+        "https://cdm16918.contentdm.oclc.org/"
+      ],
+      "page_click_index": "washburn_repo_page_clicks",
+      "access_info_index": "washburn_repo_access_info"
+    },
+    "sort": [
+      58
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "ifpri_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "ifpri_repo",
+      "ir_name": "International Food Policy Research Institute (IFPRI) e-brary Knowledge Repository",
+      "ir_platform": "contentdm",
+      "url_string_filter": "/filename/",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "US",
+      "description": "The IFPRI repository represents publications where IFPRI is the publisher.",
+      "urls": [
+        "http://ebrary.ifpri.org/cdm/",
+        "https://ebrary.ifpri.org/cdm/",
+        "https://www.ifpri.org/",
+        "http://www.ifpri.org/"
+      ],
+      "page_click_index": "ifpri_repo_page_clicks",
+      "access_info_index": "ifpri_repo_access_info"
+    },
+    "sort": [
+      59
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "northeastern_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "northeastern_repo",
+      "ir_name": "Northeastern University Digital Repository Service",
+      "ir_platform": "fedora",
+      "url_string_filter": "fulltext.pdf",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "US",
+      "description": "The Digital Repository Service is a secure repository system, designed to store and share scholarly, administrative, and archival materials on behalf of the Northeastern University community.",
+      "urls": [
+        "https://repository.library.northeastern.edu/",
+        "http://repository.library.northeastern.edu/"
+      ],
+      "page_click_index": "northeastern_repo_page_clicks",
+      "access_info_index": "northeastern_repo_access_info"
+    },
+    "sort": [
+      60
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "rutgers_rucore",
+    "_score": null,
+    "_source": {
+      "ir_root": "rutgers_rucore",
+      "ir_name": "Rutgers University RUcore Institutional Repository",
+      "ir_platform": "fedora",
+      "url_string_filter": "/pdf/",
+      "add_date": "2020-09-01",
+      "logging": true,
+      "country": "US",
+      "description": "RUcore is Rutgers University's institutional repository. For over 10 years RUcore has been preserving and making accessible scholarly materials, digital collections, and research data.",
+      "urls": [
+        "https://rucore.libraries.rutgers.edu/",
+        "http://rucore.libraries.rutgers.edu/"
+      ],
+      "page_click_index": "rutgers_rucore_page_clicks",
+      "access_info_index": "rutgers_rucore_access_info"
+    },
+    "sort": [
+      62
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "nm_dc",
+    "_score": null,
+    "_source": {
+      "ir_root": "nm_dc",
+      "ir_name": "University of New Mexico Digital Repository",
+      "ir_platform": "digitalcommons",
+      "url_string_filter": "viewcontent.cgi",
+      "add_date": "2020-07-13",
+      "logging": true,
+      "country": "US",
+      "description": "The UNM Digital Repository hosts scholarly publications from UNM faculty, graduate student theses and dissertations, UNM administrative records, and more.",
+      "urls": [
+        "http://digitalrepository.unm.edu/",
+        "https://digitalrepository.unm.edu/"
+      ],
+      "page_click_index": "nm_dc_page_clicks",
+      "access_info_index": "nm_dc_access_info"
+    },
+    "sort": [
+      63
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "acu_researchbank_digital",
+    "_score": null,
+    "_source": {
+      "ir_root": "acu_researchbank_digital",
+      "ir_name": "Australian Catholic University's ResearchBank",
+      "ir_platform": "haplo",
+      "url_string_filter": "/download/",
+      "add_date": "2020-08-13",
+      "logging": true,
+      "country": "AU",
+      "description": "Research Bank is the institutional research repository of the Australian Catholic University. It serves to collect, preserve, and showcase the research publications and scholarly outputs of ACU staff and higher degree students.",
+      "urls": [
+        "https://acuresearchbank.acu.edu.au"
+      ],
+      "page_click_index": "acu_researchbank_digital_page_clicks",
+      "access_info_index": "acu_researchbank_digital_access_info"
+    },
+    "sort": [
+      64
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "asu_keep_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "asu_keep_repo",
+      "ir_name": "Arizona State University KEEP Repository",
+      "ir_platform": "islandora",
+      "url_string_filter": "/_flysystem/fedora/",
+      "add_date": "2021-01-15",
+      "logging": true,
+      "country": "US",
+      "description": "KEEP is home for the preservation of scholarship produced by ASU faculty, staff, and students. Find and submit open access articles, collaborative research projects, musical performances, theses and dissertations and more",
+      "urls": [
+        "https://keep.lib.asu.edu/"
+      ],
+      "page_click_index": "asu_keep_repo_page_clicks",
+      "access_info_index": "asu_keep_repo_access_info"
+    },
+    "sort": [
+      65
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "asu_prism_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "asu_prism_repo",
+      "ir_name": "Arizona State University PRISM Repository",
+      "ir_platform": "islandora",
+      "url_string_filter": "/_flysystem/fedora/",
+      "add_date": "2021-01-15",
+      "logging": true,
+      "country": "US",
+      "description": "The ASU Library's digital collections repository, PRISM, preserves and shares digitized and born digital content from ASU Library's many unique distinctive, archival, and community-oriented collections. Collections in PRISM are open, and intended to be used for teaching, learning, research, and scholarship, and include historic photographs, maps, audio recordings, videos, manuscripts, and texts.",
+      "urls": [
+        "https://prism.lib.asu.edu/"
+      ],
+      "page_click_index": "asu_prism_repo_page_clicks",
+      "access_info_index": "asu_prism_repo_access_info"
+    },
+    "sort": [
+      66
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "carroll_college",
+    "_score": null,
+    "_source": {
+      "ir_root": "carroll_college",
+      "ir_name": "Carroll College Carroll Scholars",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2021-02-17",
+      "logging": true,
+      "country": "US",
+      "description": "The Carroll Scholars institutional repository collects, preserves, promotes, and provides access to the scholarly and intellectual output of Carroll College.",
+      "urls": [
+        "https://scholars.carroll.edu/"
+      ],
+      "page_click_index": "carroll_college_page_clicks",
+      "access_info_index": "carroll_college_access_info"
+    },
+    "sort": [
+      67
+    ]
+  },
+  {
+    "_index": "repository_configuration",
+    "_type": "_doc",
+    "_id": "universidad_peruana_repo",
+    "_score": null,
+    "_source": {
+      "ir_root": "universidad_peruana_repo",
+      "ir_name": "Repositorio Acad\u00e9mico do Universidad Peruana de Ciencias Aplicadas",
+      "ir_platform": "dspace",
+      "url_string_filter": "/bitstream/",
+      "add_date": "2021-03-23",
+      "logging": true,
+      "country": "PE",
+      "description": "",
+      "urls": [
+        "https://repositorioacademico.upc.edu.pe/"
+      ],
+      "page_click_index": "universidad_peruana_repo_page_clicks",
+      "access_info_index": "universidad_peruana_repo_access_info"
+    },
+    "sort": [
+      68
+    ]
+  }
+]
